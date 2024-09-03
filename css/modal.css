@@ -1,0 +1,68 @@
+@import url(./reset.css);
+@import url(./font.css);
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "OTEnjoystoriesBA";
+  color: #5b2386;
+  text-align: center;
+}
+
+.modal {
+  width: 800px;
+  height: 800px;
+  border-radius: 30px;
+
+  box-shadow: 0px 0px 20px 0px #00000080;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-1 {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 105.6px;
+}
+
+.text-2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+}
+
+.img-licat {
+  width: 433px;
+  height: 337px;
+  margin-bottom: 78px;
+}
+
+button {
+  width: 508px;
+  height: 66px;
+  border-radius: 56px;
+  background-color: #fcee21;
+
+  color: #5b2386;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}

@@ -1,0 +1,179 @@
+@import url(./reset.css);
+@import url(./font.css);
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "GmarketSansMedium";
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #5b2386;
+}
+
+strong {
+  font-family: "GmarketSansBold";
+}
+
+.wrap {
+  height: 1917px;
+  text-align: center;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* start header */
+header {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img-clock,
+.img-title {
+  position: absolute;
+}
+
+.img-clock {
+  width: 221.6px;
+  height: 225px;
+  z-index: 1;
+}
+
+.img-title {
+  width: 564px;
+  height: 112px;
+  z-index: 2;
+}
+/* end header */
+
+/* start main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.text-1 {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 36px;
+  line-height: 39.6px;
+  font-weight: 700;
+  color: #f5df4d;
+}
+
+.text-2 {
+  background: url(../img/quotes.png) no-repeat;
+  width: 493px;
+  height: 96px;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.text-2 strong,
+button {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.text-3,
+input,
+.text-4 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+}
+
+input {
+  width: 228px;
+  height: 57px;
+  border-radius: 7px;
+}
+
+input::placeholder {
+  color: #babcbe;
+}
+
+button {
+  color: #5b2386;
+}
+
+.button-1 img {
+  width: 64px;
+  height: 72px;
+  position: absolute;
+  /* top: 1085px; */
+}
+
+.button-1 button {
+  width: 565px;
+  height: 66px;
+  padding: 21px 49px 21px 49px;
+  gap: 10px;
+  border-radius: 56px;
+  background: #fcee21;
+}
+
+.text-4 strong {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+  /* gap: 12px; */
+}
+
+.field-button {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.button-modal {
+  width: 356px;
+  height: 66px;
+  border-radius: 56px;
+  background-color: #fcee21;
+}
+
+.button-3 {
+  width: 191px;
+  height: 66px;
+  border-radius: 56px;
+  background-color: #fff;
+}
+/* end main */
+
+/* start footer */
+footer img {
+  width: 125px;
+  height: 25px;
+}
+footer strong {
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.38px;
+}
+/* end footer */
