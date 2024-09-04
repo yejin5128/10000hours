@@ -1,0 +1,264 @@
+@import url(./reset.css);
+@import url(./font.css);
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "GmarketSansMedium";
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #5b2386;
+}
+
+strong,
+button {
+  font-family: "GmarketSansBold";
+}
+
+.wrap {
+  width: 36rem;
+  height: 117.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2%;
+  max-width: calc(100% - 6rem);
+  margin: 3rem auto;
+}
+
+/* start header */
+header {
+  height: 26.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img-clock,
+.img-title {
+  position: absolute;
+}
+
+.img-clock {
+  width: 12.5rem;
+  height: 12.6rem;
+  z-index: 1;
+}
+
+.img-title {
+  width: 26.1rem;
+  height: 5.3rem;
+  z-index: 2;
+}
+/* end header */
+
+/* start main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 10%;
+}
+
+.text-1 {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 2.2rem;
+  line-height: 2.42rem;
+  font-weight: 700;
+  color: #f5df4d;
+}
+
+.text-2 {
+  width: 100%;
+  height: 6.8rem;
+  background: url(../img/quotes.png) no-repeat;
+  background-size: 30.2rem 4.8rem;
+  background-position: bottom;
+}
+
+.text-2 strong {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+
+.text-2 p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.text-3,
+input {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+input {
+  width: 15.6rem;
+  height: 3.7rem;
+  border-radius: 0.7rem;
+}
+
+input::placeholder {
+  color: #babcbe;
+}
+
+button {
+  color: #5b2386;
+}
+
+.button-1 {
+  width: 100%;
+  background: url(../img/click.png) no-repeat;
+  background-size: 4.3rem 4.8rem;
+  padding: 1rem;
+  background-position: right bottom;
+}
+
+.button-1 > button {
+  width: 24.1rem;
+  height: 6.8rem;
+  padding: 1.7rem 3.65rem;
+  border-radius: 1.3rem;
+  background: #fcee21;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+
+.text-4 p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.text-4 strong {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.field-button {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.button-modal {
+  width: 18.6rem;
+  height: 4rem;
+  border-radius: 5.6rem;
+  background-color: #fcee21;
+  cursor: pointer;
+}
+
+.button-3 {
+  width: 9.2rem;
+  height: 4rem;
+  border-radius: 5.6rem;
+  background-color: #fff;
+}
+
+.field-button > button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+/* end main */
+
+/* start footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+footer img {
+  width: 9.1rem;
+  height: 1.8rem;
+}
+footer strong {
+  font-family: "Noto Sans KR";
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.303rem;
+}
+/* end footer */
+
+/* start modal */
+.modal {
+  display: none;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #00000080;
+
+  font-family: "OTEnjoystoriesBA";
+  color: #5b2386;
+  text-align: center;
+}
+
+.modal_popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+}
+
+.modal-text > span {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 105.6px;
+}
+
+.img-licat {
+  width: 433px;
+  height: 337px;
+  margin-bottom: 78px;
+}
+
+.modal-button {
+  width: 508px;
+  height: 66px;
+  border-radius: 56px;
+  background-color: #fcee21;
+
+  color: #5b2386;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* end modal */
